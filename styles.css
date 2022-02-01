@@ -1,0 +1,76 @@
+.body {
+    background-color: #a7ecf2;
+    text-decoration: white;
+}
+body{
+    background-image: url("ioa-img.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container {
+    grid-template-columns: [col1] 25% [col2] 25% [col3] 25% [col4] 25% [last-col];
+    grid-template-rows: [row1] 50px [row2] auto [row3] 35% [row4] 50px [last-row];
+  }
+.masterbox {
+    display: grid;
+    background-color: #3e9cbf;
+    grid-area: header;
+}
+.profilebuttons {
+    padding: 10px;
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-content: center;
+    align-content: center;
+}
+#username {
+    padding: 10px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.information {
+    padding: 10px;
+    display: grid;
+}
+.info-name {
+    padding: 5px;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-size-adjust: larger;
+    font-family: 'Franklin Gothic Medium';
+}
+.info-links {
+    padding: 5px;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.aboutmebutton {
+    background-color: #3e9cbf;
+}
+
